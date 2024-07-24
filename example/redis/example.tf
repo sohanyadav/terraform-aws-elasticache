@@ -3,8 +3,7 @@ provider "aws" {
 }
 
 module "vpc" {
-  source                              = "git::https://github.com/sohanyadav
-/terraform-aws-vpc.git?ref=v1.0.0"
+  source                              = "git::https://github.com/sohanyadav/terraform-aws-vpc.git?ref=v1.0.0"
   name                                = "app"
   environment                         = "test"
   cidr_block                          = "10.0.0.0/16"
@@ -16,8 +15,7 @@ module "vpc" {
 }
 
 module "subnet" {
-  source             = "git::https://github.com/sohanyadav
-/terraform-aws-subnet.git?ref=v1.0.0"
+  source             = "git::https://github.com/sohanyadav/terraform-aws-subnet.git?ref=v1.0.0"
   name               = "app"
   environment        = "test"
   availability_zones = ["ap-south-1a", "ap-south-1b", "ap-south-1c"]

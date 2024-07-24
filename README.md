@@ -111,7 +111,6 @@ Example:redis-cluster
 ```hcl
 module "redis-cluster" {
   source = "git::https://github.com/sohanyadav/terraform-aws-elasticache.git?ref=v1.0.0"
-
   name        = "redis-cluster"
   environment = "test"
   label_order = ["environment", "name"]
