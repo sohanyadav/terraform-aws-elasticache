@@ -268,7 +268,7 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 | <a name="input_port"></a> [port](#input\_port) | the port number on which each of the cache nodes will accept connections. | `string` | `""` | no |
 | <a name="input_protocol"></a> [protocol](#input\_protocol) | The protocol. If not icmp, tcp, udp, or all use the. | `string` | `"tcp"` | no |
 | <a name="input_replication_group_description"></a> [replication\_group\_description](#input\_replication\_group\_description) | Name of either the CloudWatch Logs LogGroup or Kinesis Data Firehose resource. | `string` | `"User-created description for the replication group."` | no |
-| <a name="input_repository"></a> [repository](#input\_repository) | Terraform current module repo | `string` | `"https://github.com/sohanyadav/terrform-aws-elasticache"` | no |
+| <a name="input_repository"></a> [repository](#input\_repository) | Terraform current module repo | `string` | `"https://github.com/sohanyadav/terraform-aws-elasticache"` | no |
 | <a name="input_retention_in_days"></a> [retention\_in\_days](#input\_retention\_in\_days) | Specifies the number of days you want to retain log events in the specified log group. | `number` | `0` | no |
 | <a name="input_route53_record_enabled"></a> [route53\_record\_enabled](#input\_route53\_record\_enabled) | Whether to create Route53 record set. | `bool` | `false` | no |
 | <a name="input_route53_ttl"></a> [route53\_ttl](#input\_route53\_ttl) | (Required for non-alias records) The TTL of the record. | `string` | `""` | no |
